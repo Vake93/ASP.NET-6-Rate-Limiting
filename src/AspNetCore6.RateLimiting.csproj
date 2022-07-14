@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <Description>ASP.NET 6 middleware for enforcing rate limiting in an application</Description>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <Authors>Vishvaka Ranasinghe</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Vake93/ASP.NET-6-Rate-Limiting</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Vake93/ASP.NET-6-Rate-Limiting</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageId>AspNetCore6.RateLimiting</PackageId>
+    <Product>AspNetCore6.RateLimiting</Product>
+    <Version>6.0.0-preview1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.RateLimiting" Version="7.0.0-preview.6.22324.4" />
+  </ItemGroup>
+
+</Project>
