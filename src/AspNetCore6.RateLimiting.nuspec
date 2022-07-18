@@ -6,7 +6,6 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <license type="file">.../LICENSE.txt</license>
     <!-- <icon>icon.png</icon> -->
     <projectUrl>https://github.com/Vake93/ASP.NET-6-Rate-Limiting</projectUrl>
     <description>$description$</description>

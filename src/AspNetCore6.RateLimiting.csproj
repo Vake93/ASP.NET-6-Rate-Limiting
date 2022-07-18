@@ -15,6 +15,10 @@
     <Version>6.0.0-preview1</Version>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
@@ -22,5 +26,4 @@
   <ItemGroup>
     <PackageReference Include="System.Threading.RateLimiting" Version="7.0.0-preview.6.22324.4" />
   </ItemGroup>
-
 </Project>
