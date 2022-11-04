@@ -12,7 +12,7 @@
     <RepositoryType>GitHub</RepositoryType>
     <PackageId>AspNetCore6.RateLimiting</PackageId>
     <Product>AspNetCore6.RateLimiting</Product>
-    <Version>6.0.0-preview1</Version>
+    <Version>6.0.0-rc1</Version>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -24,6 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Threading.RateLimiting" Version="7.0.0-preview.6.22324.4" />
+    <PackageReference Include="System.Threading.RateLimiting" Version="7.0.0-rc.2.22472.3" />
   </ItemGroup>
 </Project>
