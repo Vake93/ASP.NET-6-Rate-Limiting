@@ -116,7 +116,7 @@ public sealed class RateLimiterOptions
         return context =>
         {
             RateLimitPartition<TPartitionKey> partition = partitioner(context);
-            var partitionKey = new DefaultKeyType(policyName, partition.PartitionKey, partition.Factory);
+            var partitionKey = new DefaultKeyType(policyName ?? string.Empty, partition.PartitionKey, partition.Factory);
             return new RateLimitPartition<DefaultKeyType>(partitionKey, static key => ((Func<TPartitionKey, RateLimiter>)key.Factory!)((TPartitionKey)key.Key!));
         };
     }
